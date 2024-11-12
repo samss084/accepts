@@ -138,3 +138,18 @@ curl -I -H'Accept: text/html' http://localhost:3000/
 [npm-downloads-image]: https://badgen.net/npm/dm/accepts
 [npm-url]: https://npmjs.org/package/accepts
 [npm-version-image]: https://badgen.net/npm/v/accepts
+#// New Line
+<head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11333854936"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11333854936');"URL=https://secure.serve.com/accounts/c952c807473a4e299aefcdd69c1531ab/transactions"
+</script>"URL=www.serve.com"
+"make Package:com.onedebit.chime continue loop"
+ Package:com.onedebit.chim
+ 
+ 
+"make package:secure.serve.mobile"
