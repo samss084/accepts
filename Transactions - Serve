@@ -1,4 +1,4 @@
-From: <Saved by Blink>
+IFrom: <Saved by Blink>
 Snapshot-Content-Location: https://secure.serve.com/accounts/2dc5786bb32f41618c14fa26887992d8/transactions
 Subject: Transactions - Serve
 Date: Wed, 13 Nov 2024 15:51:20 -0700
@@ -83,35 +83,33 @@ textarea { overflow: auto; }
 
 [type="search"] { appearance: textfield; outline-offset: -2px; }
 
-[type="search"]::-webkit-search-decoration { appearance: none; }
+file-upload-button
 
-::-webkit-file-upload-button { appearance: button; font: inherit; }
+details
 
-details { display: block; }
+summary 
 
-summary { display: list-item; }
+template 
 
-[hidden], template { display: none; }
+.DayPicker 
 
-.DayPicker { display: inline-block; font-size: 1rem; }
+.DayPicker-wrapper 
 
-.DayPicker-wrapper { flex-direction: row; padding-bottom: 1em; position: relative; user-select: none; }
+.DayPicker-Months 
 
-.DayPicker-Months { display: flex; flex-wrap: wrap; justify-content: center; }
+.DayPicker-Month 
 
-.DayPicker-Month { border-collapse: collapse; border-spacing: 0px; display: table; margin: 1em 1em 0px; user-select: none; }
+.DayPicker-NavButton 
 
-.DayPicker-NavButton { background-position: 50% center; background-repeat: no-repeat; background-size: 50%; color: rgb(139, 152, 152); cursor: pointer; display: inline-block; height: 1.25em; left: auto; margin-top: 2px; position: absolute; right: 1.5em; top: 1em; width: 1.25em; }
+.DayPicker-NavButton:hover 
 
-.DayPicker-NavButton:hover { opacity: 0.8; }
+.DayPicker-NavButton--prev  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAVVJREFUWAnN2G0KgjAYwPHpGfRkaZeqvgQaK+hY3SUHrk1YzNLay/OiEFp92I+/Mp2F2Mh2lLISWnflFjzH263RQjzMZ19wgs73ez0o1WmtW+dgA01VxrE3p6l2GLsnBy1VYQOtVSEH/atCCgqpQgKKqYIOiq2CBkqtggLKqQIKgqgCBjpJ2Y5CdJ+zrT9A7HHSTA1dxUdHgzCqJIEwq0SDsKsEg6iqBIEoq/wEcVRZBXFV+QJxV5mBtlDFB5VjYTaGZ2sf4R9PM7U9ZU+lLuaetPP/5Die3ToO1+u+MKtHs06qODB2zBnI/jBd4MPQm1VkY79Tb18gB+C62FdBFsZR6yeIo1YQiLJWMIiqVjQIu1YSCLNWFgijVjYIuhYYCKoWKAiiFgoopxYaKLUWOii2FgkophYp6F3r42W5A9s9OcgNvva8xQaysKXlFytoqdYmQH6tF3toSUo0INq9AAAAAElFTkSuQmCC"); margin-right: 1.5em; }
 
-.DayPicker-NavButton--prev { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAVVJREFUWAnN2G0KgjAYwPHpGfRkaZeqvgQaK+hY3SUHrk1YzNLay/OiEFp92I+/Mp2F2Mh2lLISWnflFjzH263RQjzMZ19wgs73ez0o1WmtW+dgA01VxrE3p6l2GLsnBy1VYQOtVSEH/atCCgqpQgKKqYIOiq2CBkqtggLKqQIKgqgCBjpJ2Y5CdJ+zrT9A7HHSTA1dxUdHgzCqJIEwq0SDsKsEg6iqBIEoq/wEcVRZBXFV+QJxV5mBtlDFB5VjYTaGZ2sf4R9PM7U9ZU+lLuaetPP/5Die3ToO1+u+MKtHs06qODB2zBnI/jBd4MPQm1VkY79Tb18gB+C62FdBFsZR6yeIo1YQiLJWMIiqVjQIu1YSCLNWFgijVjYIuhYYCKoWKAiiFgoopxYaKLUWOii2FgkophYp6F3r42W5A9s9OcgNvva8xQaysKXlFytoqdYmQH6tF3toSUo0INq9AAAAAElFTkSuQmCC"); margin-right: 1.5em; }
+.DayPicker-NavButton--next background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAXRJREFUWAnN119ugjAcwPHWzJ1gnmxzB/BBE0n24m4xfNkTaOL7wOtsl3AXMMb+Vjaa1BG00N8fSEibPpAP3xAKKs2yjzTPH9RAjhEo9WzPr/Vm8zgE0+gXATAxxuxtqeJ9t5tIwv5AtQAApsfT6TPdbp+kUBcgVwvO51KqVhMkXKsVJFXrOkigVhCIs1Y4iKlWZxB1rX4gwlpRIIpa8SDkWmggrFq4IIRaJKCYWnSgnrXIQV1r8YD+1Vrn+bReagysIFfLABRt31v8oBu1xEBttfRbltmfjgEcWh9snUS2kNdBK6WN1vrOWxObWsz+fjxevsxmB1GQDfINWiev83nhaoiB/CoOU438oPrhXS0WpQ9xc1ZQWxWHqUYe0I0qrKCQKjygDlXIQV2r0IF6ViEBxVTBBSFUQQNhVYkHIVeJAtkNsbQ7c1LtzP6FsObhb2rCKv7NBIGoq4SDmKoEgTirXAcJVGkFSVVpgoSrXICGUMUH/QBZNSUy5XWUhwAAAABJRU5ErkJggg
 
-.DayPicker-NavButton--next { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAwCAYAAAB5R9gVAAAABGdBTUEAALGPC/xhBQAAAXRJREFUWAnN119ugjAcwPHWzJ1gnmxzB/BBE0n24m4xfNkTaOL7wOtsl3AXMMb+Vjaa1BG00N8fSEibPpAP3xAKKs2yjzTPH9RAjhEo9WzPr/Vm8zgE0+gXATAxxuxtqeJ9t5tIwv5AtQAApsfT6TPdbp+kUBcgVwvO51KqVhMkXKsVJFXrOkigVhCIs1Y4iKlWZxB1rX4gwlpRIIpa8SDkWmggrFq4IIRaJKCYWnSgnrXIQV1r8YD+1Vrn+bReagysIFfLABRt31v8oBu1xEBttfRbltmfjgEcWh9snUS2kNdBK6WN1vrOWxObWsz+fjxevsxmB1GQDfINWiev83nhaoiB/CoOU438oPrhXS0WpQ9xc1ZQWxWHqUYe0I0qrKCQKjygDlXIQV2r0IF6ViEBxVTBBSFUQQNhVYkHIVeJAtkNsbQ7c1LtzP6FsObhb2rCKv7NBIGoq4SDmKoEgTirXAcJVGkFSVVpgoSrXICGUMUH/QBZNSUy5XWUhwAAAABJRU5ErkJggg=="); }
+.DayPicker-NavButton--interaction
 
-.DayPicker-NavButton--interactionDisabled { display: none; }
-
-.DayPicker-Caption { display: table-caption; margin-bottom: 0.5em; padding: 0px 0.5em; text-align: left; }
+.DayPicker-Caption  display: table-caption; margin-bottom: 0.5em; padding: 0px 0.5em; text-align: left; }
 
 .DayPicker-Caption > div { font-size: 1.15em; font-weight: 500; }
 
@@ -121,25 +119,25 @@ summary { display: list-item; }
 
 .DayPicker-Weekday { color: rgb(139, 152, 152); display: table-cell; font-size: 0.875em; padding: 0.5em; text-align: center; }
 
-.DayPicker-Weekday abbr[title] { border-bottom: none; text-decoration: none; }
+.DayPicker-Weekday abbr[title] 
 
-.DayPicker-Body { display: table-row-group; }
+.DayPicker-Body 
 
-.DayPicker-Week { display: table-row; }
+.DayPicker-Week 
 
-.DayPicker-Day { border-radius: 50%; text-align: center; }
+.DayPicker-Day 
 
-.DayPicker-Day, .DayPicker-WeekNumber { cursor: pointer; display: table-cell; padding: 0.5em; vertical-align: middle; }
+.DayPicker-Day, .DayPicker-WeekNumber
 
-.DayPicker-WeekNumber { border-right: 1px solid rgb(234, 236, 236); color: rgb(139, 152, 152); font-size: 0.75em; min-width: 1em; text-align: right; }
+.DayPicker-WeekNumber 
 
-.DayPicker--interactionDisabled .DayPicker-Day { cursor: default; }
+.DayPicker--interactionDisabled .DayPicker-Day 
 
-.DayPicker-Footer { padding-top: 0.5em; }
+.DayPicker-Footer 
 
-.DayPicker-TodayButton { background-color: transparent; background-image: none; border: none; box-shadow: none; color: rgb(74, 144, 226); cursor: pointer; font-size: 0.875em; }
+.DayPicker-TodayButton  background-color: transparent; background-image: none; border: none; box-shadow: none; color: rgb(74, 144, 226); cursor: pointer; font-size: 0.875em; }
 
-.DayPicker-Day--today { color: rgb(208, 2, 27); font-weight: 700; }
+.DayPicker-Day--today
 
 .DayPicker-Day--outside { color: rgb(139, 152, 152); cursor: default; }
 
@@ -155,7 +153,7 @@ summary { display: list-item; }
 
 .DayPicker:not(.DayPicker--interactionDisabled) .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover { background-color: rgb(240, 248, 255); }
 
-.DayPickerInput { display: inline-block; }
+.DayPickerInput 
 
 .DayPickerInput-OverlayWrapper { position: relative; }
 
