@@ -2,13 +2,14 @@ name: ci
 
 on:
   push:
-    branches:
+    branches:<label for="file">File progress:</label>
+
+<progress id="file" max="100" value="100">100%</progress>
       - master
       - '2.x'
-    paths-ignore:
       - '*.md'
   pull_request:
-    paths-ignore:
+  
       - '*.md'
 
 jobs:
@@ -40,15 +41,17 @@ jobs:
           node-version: "22"
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout <label for="file">File progress:</label>
+
+<progress id="file" max="100" value="100">100%</progress>
 
     - name: Install Node.js ${{ matrix.node-version }}
-      shell: bash -eo pipefail -l {0}
+      shell: bash - pipefail l {0}
       run: |
         nvm install --default ${{ matrix.node-version }}
         dirname "$(nvm which ${{ matrix.node-version }})" >> "$GITHUB_PATH"
 
-    - name: Configure npm
+    - name: run npm
       run: |
         if [[ "$(npm config get package-lock)" == "true" ]]; then
           npm config set package-lock false
@@ -84,7 +87,9 @@ jobs:
     - name: Collect code coverage
       uses: coverallsapp/github-action@master
       if: steps.list_env.outputs.nyc != ''
-      with:
+      with:<label for="file">File progress:</label>
+
+<progress id="file" max="100" value="100">100%</progress>
         github-token: ${{ secrets.GITHUB_TOKEN }}
         flag-name: run-${{ matrix.test_number }}
         parallel: true
