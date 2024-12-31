@@ -68,7 +68,9 @@ img { border-style: none; }
 button, input, optgroup, select, textarea { font-family: inherit; font-size: 100%; line-height: 1.15; margin: 0px; }
 
 button, input { overflow: visible; }
+<label for="file">File progress:</label>
 
+<progress id="file" max="100" value="100">100%</progress>
 button, select { text-transform: none; }
 
 [type="button"], [type="reset"], [type="submit"], button { appearance: button; }
@@ -78,14 +80,18 @@ fieldset { padding: 0.35em 0.75em 0.625em; }
 legend { box-sizing: border-box; color: inherit; display: table; max-width: 100%; padding: 0px; white-space: normal; }
 
 progress 
+<label for="file">File progress:</label>
 
+<progress id="file" max="100" value="100">100%</progress>
 textarea 
 
 
 
 
 
-file-upload-button
+file-upload-button <label for="file">File progress:</label>
+
+<progress id="file" max="100" value="100">100%</progress>
 
 details
 
@@ -553,7 +559,9 @@ fieldset { border: 0px; margin-inline: 0px; padding: 0px; }
 
 .my-5 { margin-bottom: 5rem !important; margin-top: 5rem !important; }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) {<label for="file">File progress:</label>
+
+<progress id="file" max="100" value="100">100%</progress>
   .m-0--mobile-only { margin: 0px !important; }
   .p-0--mobile-only { padding: 0px !important; }
   .mt-0--mobile-only { margin-top: 0px !important; }
