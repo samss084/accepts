@@ -19,14 +19,18 @@ Content-Location: https://secure.serve.com/accounts/2dc5786bb32f41618c14fa268879
 Content-Type: text/css
 Content-Transfer-Encoding: binary
 Content-Location: cid:css-484a5e46-2589-454d-8788-1fba711fedb7@mhtml.blink
+<label for="file">File progress:</label>
 
+<progress id="file" max="100" value="100">100%</progress>
 @charset "utf-8";
 
 .react-skeleton-load { line-height: 1; display: inline-block; overflow: hidden; position: relative; }
 
 .react-skeleton-load.animated::before { content: ""; position: absolute; height: 100%; width: 500px; top: 0px; left: -500px; background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)); animation: 1.2s ease-in-out 0s infinite normal none running progress; }
 
-@keyframes progress { 
+@keyframes progress { <label for="file">File progress:</label>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress
+<progress id="file" max="100" value="100">100%</progress>
   0% { left: -500px; }
   100% { left: 100%; }
 }
